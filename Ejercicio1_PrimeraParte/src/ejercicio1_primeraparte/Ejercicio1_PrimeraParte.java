@@ -21,10 +21,11 @@ public class Ejercicio1_PrimeraParte {
         JFrame ventana = new JFrame("Ejemplo de manejo de eventos");
         ventana.setLayout(new FlowLayout());
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-          ventana.setSize(
+        ventana.setSize(
                 1024, 800);
         ventana.setVisible(
                 true);
+        ventana.setResizable(false);
     }
     
 }
