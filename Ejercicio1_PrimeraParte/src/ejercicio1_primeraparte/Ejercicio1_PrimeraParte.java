@@ -5,6 +5,9 @@
  */
 package ejercicio1_primeraparte;
 
+import java.awt.FlowLayout;
+import javax.swing.JFrame;
+
 /**
  *
  * @author ewelina
@@ -15,7 +18,13 @@ public class Ejercicio1_PrimeraParte {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        JFrame ventana = new JFrame("Ejemplo de manejo de eventos");
+        ventana.setLayout(new FlowLayout());
+        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+          ventana.setSize(
+                1024, 800);
+        ventana.setVisible(
+                true);
     }
     
 }
