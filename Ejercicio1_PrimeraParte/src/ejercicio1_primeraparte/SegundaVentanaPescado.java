@@ -16,8 +16,7 @@ import static javax.swing.WindowConstants.HIDE_ON_CLOSE;
  *
  * @author ewelina
  */
-
-    public class SegundaVentanaPescado extends JDialog implements ActionListener {
+public class SegundaVentanaPescado extends JDialog implements ActionListener {
 
     /* Declaro variables */
     private JButton boton2;
