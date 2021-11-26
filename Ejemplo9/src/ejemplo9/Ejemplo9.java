@@ -9,7 +9,7 @@ package ejemplo9;
  *
  * @author ewelina
  */
-17:03
+
 import java.awt.*;
 import static java.awt.Font.PLAIN;
 import javax.swing.JButton;
